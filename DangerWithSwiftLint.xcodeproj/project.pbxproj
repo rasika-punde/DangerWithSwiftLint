@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0869CF351C1F431F3AC7746 /* Pods_DangerWithSwiftLint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B8935F376F5F8DC63CAFF2 /* Pods_DangerWithSwiftLint.framework */; };
+		F013D80023573BA00070AD65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013D7FF23573BA00070AD65 /* ViewController.swift */; };
 		F0F2A33F234B61BB004B8EAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F2A33E234B61BB004B8EAF /* AppDelegate.swift */; };
 		F0F2A341234B61BB004B8EAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F2A340234B61BB004B8EAF /* SceneDelegate.swift */; };
 		F0F2A343234B61BB004B8EAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F2A342234B61BB004B8EAF /* ContentView.swift */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DD70BFD321342D010E78E2C /* Pods-DangerWithSwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DangerWithSwiftLint.debug.xcconfig"; path = "Target Support Files/Pods-DangerWithSwiftLint/Pods-DangerWithSwiftLint.debug.xcconfig"; sourceTree = "<group>"; };
+		C8B8935F376F5F8DC63CAFF2 /* Pods_DangerWithSwiftLint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DangerWithSwiftLint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F013D7FF23573BA00070AD65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F0F2A33B234B61BB004B8EAF /* DangerWithSwiftLint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DangerWithSwiftLint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F2A33E234B61BB004B8EAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0F2A340234B61BB004B8EAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		F0F2A347234B61C1004B8EAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0F2A34A234B61C1004B8EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0F2A34C234B61C1004B8EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29F206026A5DB4A26314A28 /* Pods-DangerWithSwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DangerWithSwiftLint.release.xcconfig"; path = "Target Support Files/Pods-DangerWithSwiftLint/Pods-DangerWithSwiftLint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0869CF351C1F431F3AC7746 /* Pods_DangerWithSwiftLint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		663487522AE9C284D84DC3E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8B8935F376F5F8DC63CAFF2 /* Pods_DangerWithSwiftLint.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CA75B737CC45459AC3E7229 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70BFD321342D010E78E2C /* Pods-DangerWithSwiftLint.debug.xcconfig */,
+				F29F206026A5DB4A26314A28 /* Pods-DangerWithSwiftLint.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F0F2A332234B61BB004B8EAF = {
 			isa = PBXGroup;
 			children = (
 				F0F2A33D234B61BB004B8EAF /* DangerWithSwiftLint */,
 				F0F2A33C234B61BB004B8EAF /* Products */,
+				6CA75B737CC45459AC3E7229 /* Pods */,
+				663487522AE9C284D84DC3E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +89,7 @@
 				F0F2A349234B61C1004B8EAF /* LaunchScreen.storyboard */,
 				F0F2A34C234B61C1004B8EAF /* Info.plist */,
 				F0F2A346234B61C1004B8EAF /* Preview Content */,
+				F013D7FF23573BA00070AD65 /* ViewController.swift */,
 			);
 			path = DangerWithSwiftLint;
 			sourceTree = "<group>";
@@ -82,6 +109,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0F2A34F234B61C1004B8EAF /* Build configuration list for PBXNativeTarget "DangerWithSwiftLint" */;
 			buildPhases = (
+				9B0131ED296B78964C580508 /* [CP] Check Pods Manifest.lock */,
 				F0F2A337234B61BB004B8EAF /* Sources */,
 				F0F2A338234B61BB004B8EAF /* Frameworks */,
 				F0F2A339234B61BB004B8EAF /* Resources */,
@@ -141,6 +169,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9B0131ED296B78964C580508 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DangerWithSwiftLint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F0F2A337234B61BB004B8EAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -148,6 +201,7 @@
 			files = (
 				F0F2A33F234B61BB004B8EAF /* AppDelegate.swift in Sources */,
 				F0F2A341234B61BB004B8EAF /* SceneDelegate.swift in Sources */,
+				F013D80023573BA00070AD65 /* ViewController.swift in Sources */,
 				F0F2A343234B61BB004B8EAF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +336,7 @@
 		};
 		F0F2A350234B61C1004B8EAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD70BFD321342D010E78E2C /* Pods-DangerWithSwiftLint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +357,7 @@
 		};
 		F0F2A351234B61C1004B8EAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29F206026A5DB4A26314A28 /* Pods-DangerWithSwiftLint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
