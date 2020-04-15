@@ -13,6 +13,7 @@ import UIKit
 class ViewController: UIViewController {
 
     let hi = ""
+    let someForceCast = NSObject() as! Int
     
     override func viewDidLoad() {
         super.viewDidLoad()
