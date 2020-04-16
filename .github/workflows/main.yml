@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Danger
-        uses: 417-72KI/danger-swiftlint@v1
+        uses: c
         env:
-          GITHUB_TOKEN: ${{ secrets.677fa9687958b241d1777003dc1c1f6a82b87177 }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
