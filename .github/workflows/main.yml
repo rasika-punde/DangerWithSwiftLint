@@ -1,0 +1,15 @@
+name: Danger
+on:
+  pull_request:
+    paths:
+      - '.swiftlint.yml'
+      - '**/*.swift'
+jobs:
+  Danger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Danger
+        uses: 417-72KI/danger-swiftlint@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.677fa9687958b241d1777003dc1c1f6a82b87177 }}
